@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Email Database</h2>
+
+<p id="demo"></p >
+
+<script>
+// Constructor function for Person objects
+function User(username, emailaddress){
+this.username = username;
+this.emailaddress = emailaddress;
+}
+
+// Create a Person object
+var User1 = new User("user1","user1@gmail.com");
+var User2 = new User("user2","user2@gmail.com");
+var User3 = new User("user3","user3@gmail.com");
+
+document.getElementById("demo").innerHTML =
+User1.username+ " | "+ User1.emailaddress + "<br />" 
++ User2.username+ " | "+ User2.emailaddress + "<br />" 
++User3.username+ " | "+ User3.emailaddress + "<br />" ;
+</script>
+
+</body>
+</html>

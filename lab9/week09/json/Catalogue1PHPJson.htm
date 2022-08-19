@@ -1,0 +1,50 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+  <script type="text/javascript" src="CartJson.js"></script>
+  <script type="text/javascript" src="domPrac.js"></script> 
+</head>
+<body>
+<div name="Task1">
+  <h1>Task1</h1>
+  <div><img id="cover" src="begaspnet.jpg" /><br><br></div>
+  <b>Book:</b><span id="book">Beginning ASP.NET with CSharp</span><br />
+  <b>Authors: </b><span id="authors"> Hart, Kauffman, Sussman, Ullman</span>
+  <br /><b>ISBN: </b><span id="ISBN">0764588508</span>
+  <br /><b>Price: </b><span id="price">$39.99</span>
+  <br /><br />
+  <a href="#" onclick="AddRemoveItem('Add');" >Add to Shopping Cart</a>
+
+  <div><img id="cover" src="begaspnet.jpg" /><br><br></div>
+
+<b>Book:</b><span id="book2">Book2</span><br />
+<b>Authors: </b><span id="authors2"> Jason</span>
+<br /><b>ISBN: </b><span id="ISBN2">000000000000000</span>
+<br /><b>Price: </b><span id="price2">$9.99</span>
+<br /><br />
+<a href="#" onclick="AddRemoveItem('Add2');" >Add to Shopping Cart</a>
+</div>
+
+<img id="cover" src="begaspnet.jpg" />
+<br />
+<br />
+<b>Book:</b><span id="book3">Book3</span><br />
+<b>Authors: </b><span id="authors3"> Tina</span>
+<br /><b>ISBN: </b><span id="ISBN3">11111111111</span>
+<br /><b>Price: </b><span id="price3">$5000.00</span>
+<br /><br />
+<a href="#" onclick="AddRemoveItem('Add3');" >Add to Shopping Cart</a>
+
+
+<span id="cart" ></span><br>
+<span id="cart2" ></span><br>
+<span id="cart3" ></span>
+</div><br><br>
+
+<div name="Task2">
+  <h1>Task2</h1>
+  <input type="button" value=" append a new row " onclick="appendRow()" /><br /><br />
+  <table id= "tbl" border="1"></table><br />
+  <button onclick="removeRow()">Delete the selected rows</button>
+</div>
+</body>
+</html>
